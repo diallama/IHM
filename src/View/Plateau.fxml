@@ -20,30 +20,9 @@
                      <children>
                         <VBox prefHeight="582.0" prefWidth="679.0">
                            <children>
-                              <TilePane prefHeight="134.0" prefWidth="679.0">
-                                 <children>
-                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#105e20" height="128.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
-                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#105e20" height="128.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
-                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#105e20" height="128.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
-                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#105e20" height="128.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
-                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#105e20" height="128.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
-                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#105e20" height="128.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
-                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#105e20" height="128.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
-                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#105e20" height="128.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
-                                 </children>
-                              </TilePane>
+                              <TilePane prefHeight="134.0" prefWidth="679.0" />
                               <TilePane prefHeight="200.0" prefWidth="200.0" />
-                              <TilePane>
-                                 <children>
-                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1d6822" height="122.0" stroke="BLACK" strokeType="INSIDE" width="89.0" />
-                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1d6822" height="122.0" stroke="BLACK" strokeType="INSIDE" width="89.0" />
-                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1d6822" height="122.0" stroke="BLACK" strokeType="INSIDE" width="89.0" />
-                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1d6822" height="122.0" stroke="BLACK" strokeType="INSIDE" width="89.0" />
-                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1d6822" height="122.0" stroke="BLACK" strokeType="INSIDE" width="89.0" />
-                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1d6822" height="122.0" stroke="BLACK" strokeType="INSIDE" width="89.0" />
-                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1d6822" height="122.0" stroke="BLACK" strokeType="INSIDE" width="89.0" />
-                                 </children>
-                              </TilePane>
+                              <TilePane />
                            </children>
                         </VBox>
                      </children>
@@ -81,7 +60,7 @@
                         <FlowPane hgap="15.0" prefHeight="33.0" prefWidth="462.0">
                            <children>
                               <Button mnemonicParsing="false" prefHeight="33.0" prefWidth="129.0" text="Pause" />
-                              <Button mnemonicParsing="false" prefHeight="33.0" prefWidth="129.0" text="Abandon" />
+                              <Button mnemonicParsing="false" prefHeight="33.0" prefWidth="129.0" text="Sauvegarder" />
                               <Button mnemonicParsing="false" prefHeight="33.0" prefWidth="129.0" text="Annuler" />
                            </children>
                            <VBox.margin>
