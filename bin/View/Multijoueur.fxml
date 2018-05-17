@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="595.0" prefWidth="648.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox id="VBox" alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="580.0" prefWidth="600.0" spacing="50.0" stylesheets="@Theme.css" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0">
+         <children>
+            <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="200.0" text="JOUER EN LOCAL" />
+            <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="200.0" text="JOUER EN LIGNE" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.web.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.canvas.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="584.0" prefWidth="1124.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <SplitPane dividerPositions="0.6081081081081081" prefHeight="584.0" prefWidth="742.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="582.0" prefWidth="720.0">
+               <children>
+                  <FlowPane prefHeight="582.0" prefWidth="679.0" vgap="25.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <VBox prefHeight="582.0" prefWidth="679.0">
+                           <children>
+                              <TilePane prefHeight="134.0" prefWidth="679.0">
+                                 <children>
+                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#105e20" height="128.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
+                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#105e20" height="128.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
+                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#105e20" height="128.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
+                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#105e20" height="128.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
+                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#105e20" height="128.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
+                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#105e20" height="128.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
+                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#105e20" height="128.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
+                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#105e20" height="128.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
+                                 </children>
+                              </TilePane>
+                              <TilePane prefHeight="200.0" prefWidth="200.0" />
+                              <TilePane>
+                                 <children>
+                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1d6822" height="122.0" stroke="BLACK" strokeType="INSIDE" width="89.0" />
+                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1d6822" height="122.0" stroke="BLACK" strokeType="INSIDE" width="89.0" />
+                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1d6822" height="122.0" stroke="BLACK" strokeType="INSIDE" width="89.0" />
+                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1d6822" height="122.0" stroke="BLACK" strokeType="INSIDE" width="89.0" />
+                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1d6822" height="122.0" stroke="BLACK" strokeType="INSIDE" width="89.0" />
+                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1d6822" height="122.0" stroke="BLACK" strokeType="INSIDE" width="89.0" />
+                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1d6822" height="122.0" stroke="BLACK" strokeType="INSIDE" width="89.0" />
+                                 </children>
+                              </TilePane>
+                           </children>
+                        </VBox>
+                     </children>
+                  </FlowPane>
+               </children></AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="582.0" prefWidth="397.0">
+               <children>
+                  <VBox id="chat" layoutX="74.0" layoutY="22.0" prefHeight="582.0" prefWidth="287.0" stylesheets="@Theme.css" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+                     <children>
+                        <Label prefHeight="39.0" prefWidth="87.0" text="Score :" />
+                        <FlowPane prefHeight="200.0" prefWidth="200.0">
+                           <children>
+                              <TextArea prefHeight="317.0" prefWidth="417.0" />
+                           </children>
+                        </FlowPane>
+                        <FlowPane prefHeight="31.0" prefWidth="287.0">
+                           <children>
+                              <TextField prefHeight="37.0" prefWidth="314.0" />
+                              <Button mnemonicParsing="false" prefHeight="37.0" prefWidth="101.0" text="Envoyer" />
+                           </children>
+                        </FlowPane>
+                        <VBox alignment="CENTER" prefHeight="130.0" prefWidth="267.0">
+                           <children>
+                              <Button mnemonicParsing="false" prefHeight="33.0" prefWidth="106.0" text="Régles" />
+                              <Button mnemonicParsing="false" prefHeight="33.0" prefWidth="108.0" text="Capituler">
+                                 <VBox.margin>
+                                    <Insets top="20.0" />
+                                 </VBox.margin>
+                              </Button>
+                           </children>
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                        </VBox>
+                        <FlowPane hgap="15.0" prefHeight="33.0" prefWidth="462.0">
+                           <children>
+                              <Button mnemonicParsing="false" prefHeight="33.0" prefWidth="129.0" text="Pause" />
+                              <Button mnemonicParsing="false" prefHeight="33.0" prefWidth="129.0" text="Abandon" />
+                              <Button mnemonicParsing="false" prefHeight="33.0" prefWidth="129.0" text="Annuler" />
+                           </children>
+                           <VBox.margin>
+                              <Insets top="20.0" />
+                           </VBox.margin>
+                        </FlowPane>
+                     </children>
+                  </VBox>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>
