@@ -18,13 +18,7 @@
                <children>
                   <FlowPane prefHeight="582.0" prefWidth="679.0" vgap="25.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                      <children>
-                        <VBox prefHeight="582.0" prefWidth="679.0">
-                           <children>
-                              <TilePane prefHeight="134.0" prefWidth="679.0" />
-                              <TilePane prefHeight="200.0" prefWidth="200.0" />
-                              <TilePane />
-                           </children>
-                        </VBox>
+                        <Canvas height="583.0" width="680.0" />
                      </children>
                   </FlowPane>
                </children></AnchorPane>
@@ -56,9 +50,9 @@
                         </FlowPane>
                         <FlowPane hgap="15.0" prefHeight="33.0" prefWidth="462.0">
                            <children>
+                              <Button mnemonicParsing="false" prefHeight="33.0" prefWidth="129.0" text="Annuler" />
                               <Button mnemonicParsing="false" prefHeight="33.0" prefWidth="129.0" text="Pause" />
                               <Button mnemonicParsing="false" prefHeight="33.0" prefWidth="129.0" text="Sauvegarder" />
-                              <Button mnemonicParsing="false" prefHeight="33.0" prefWidth="129.0" text="Annuler" />
                            </children>
                            <VBox.margin>
                               <Insets top="20.0" />
