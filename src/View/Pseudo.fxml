@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="518.0" prefWidth="619.0" stylesheets="@Theme.css" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+   <children>
+      <TilePane id="VBox" prefHeight="450.0" prefWidth="579.0" stylesheets="@Theme.css" AnchorPane.bottomAnchor="21.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0">
+         <children>
+            <Label alignment="TOP_CENTER" contentDisplay="CENTER" prefHeight="67.0" prefWidth="578.0" text="BIENVENUE " textAlignment="JUSTIFY" />
+            <FlowPane id="pseudo" hgap="20.0" prefHeight="150.0" prefWidth="578.0">
+               <children>
+                  <Label prefHeight="60.0" prefWidth="84.0" text="Votre  Pseudo : " />
+                  <TextField prefHeight="37.0" prefWidth="276.0" />
+                  <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="124.0" text="Confirmer" />
+               </children>
+            </FlowPane>
+         </children>
+      </TilePane>
+   </children>
+</AnchorPane>
